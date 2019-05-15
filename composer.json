@@ -22,20 +22,9 @@
       "role": "Developer"
     }
   ],
-  "require": {
-    "php": "^5.5|^7.0",
-    "ext-pdo": "*",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "ext-mbstring": "*"
-  },
   "autoload": {
     "psr-4": {
       "cronapp\\CronBot\\": "src/"
     }
-  },
-  "autoload-dev": {
-  },
-  "scripts": {
   }
 }
